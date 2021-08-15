@@ -1,10 +1,15 @@
+import { AppBar, Toolbar, Typography } from "@material-ui/core";
 import React from "react";
+// import "./Header.css";
+import classes from "./Header.module.css";
 
 const Header = () => {
   return (
-    <div>
-      <p>This is Header</p>
-    </div>
+    <AppBar position="static">
+      <Toolbar>
+        <Typography>React World</Typography>
+      </Toolbar>
+    </AppBar>
   );
 };
 

@@ -1,0 +1,14 @@
+/* Component selector */
+div {
+  background-color: blue;
+}
+
+/* Class selector */
+.A {
+  background-color: green;
+}
+
+/* id selector */
+#B {
+  background-color: purple;
+}
