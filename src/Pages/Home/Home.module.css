@@ -3,3 +3,37 @@
   display: flex;
   justify-content: space-around;
 }
+
+.root {
+  background-color: burlywood;
+  padding: 16px;
+}
+
+.CardDetail {
+  display: flex;
+  justify-content: space-between;
+}
+
+.CardName {
+  text-align: left;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.Card {
+  background-color: dodgerblue;
+  padding: 5px;
+  height: 100%;
+  border-radius: 10px;
+  border: 4px solid rgba(255, 255, 255, 0.427);
+}
+
+.CardImg {
+  border-radius: 5px;
+  width: 100%;
+}
+
+.Grid {
+  margin-bottom: 10px !important;
+}

@@ -6,7 +6,9 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Details from "./Pages/Details/Details";
 import Home from "./Pages/Home/Home";
 import NotFound from "./Pages/NotFound/NotFound";
+import Layout from "./Component/HOC/Layout";
 
+//HOC High Order Component
 function App() {
   return (
     <div className="App">
@@ -14,10 +16,14 @@ function App() {
       <BrowserRouter>
         <Switch>
           <Route path="/details">
-            <Details />
+            <Layout>
+              <Details />
+            </Layout>
           </Route>
           <Route exact path="/">
-            <Home />
+            <Layout>
+              <Home />
+            </Layout>
           </Route>
           <Route path="/">
             <NotFound />

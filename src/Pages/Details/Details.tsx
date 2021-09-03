@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Details = () => {
   return (
-    <div>
+    <div style={{ backgroundColor: "ghostwhite" }}>
       <p>Details</p>
       <Link to="/">Back to home</Link>
     </div>
